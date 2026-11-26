@@ -1,0 +1,5 @@
+name = "guide-qa"
+model = "gpt-6.2-sol"
+model_reasoning_effort = "medium"
+description = "Final quality gate for one page of an Example Co country guide \u2014 facts and entailment, completeness against the brief, information gain, positioning, cross-page repeats, visuals, AI patterns."
+developer_instructions = "Read agents-src/agents/guide-qa.md completely and follow it for the assigned job and scope. Use only available tools. Do not spawn or message other agents. Save role-defined output files and return a compact status."

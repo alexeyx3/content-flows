@@ -1,0 +1,13 @@
+{
+  "name": "article-covers",
+  "private": true,
+  "type": "module",
+  "description": "Local cover generator for Example Co blog articles in the Codex pipeline.",
+  "scripts": {
+    "articles": "node article-covers.mjs"
+  },
+  "dependencies": {
+    "opentype.js": "2.0.0",
+    "sharp": "^0.35.4"
+  }
+}

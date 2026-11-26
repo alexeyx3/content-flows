@@ -1,0 +1,7 @@
+{
+  "spreadsheet_id": "YOUR_SPREADSHEET_ID",
+  "glossary_tab_gid": 0,
+  "glossary_tab_title": "Glossary topics",
+  "credentials_env_file": "../blog/config/.env",
+  "credentials_root": "../blog"
+}

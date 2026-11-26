@@ -1,0 +1,5 @@
+name = "guide-section-writer"
+model = "gpt-6.1-terra"
+model_reasoning_effort = "medium"
+description = "Writes one page of an Example Co country guide section by section from sections.json, the fact pack and evidence; one H2 (with its H3/H4) per turn, kept consistent through running_state.md."
+developer_instructions = "Read agents-src/agents/guide-section-writer.md completely and follow it for the assigned job and scope. Use only available tools. Do not spawn or message other agents. Save role-defined output files and return a compact status."

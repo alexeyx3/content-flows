@@ -1,0 +1,4 @@
+{
+  "_comment": "Brands that are never mentioned anywhere on the site: text, tables, rankings, sources, links, metadata, images. Read by scripts/lint_article.py and scripts/strapi_publish.py. One entry per spelling; an entry is matched case-insensitively as a whole word, including inside URLs. End an entry with * to match it as a prefix (for inflected spellings in other languages). An empty list blocks nothing.",
+  "brands": []
+}

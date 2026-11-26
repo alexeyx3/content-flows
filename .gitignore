@@ -1,0 +1,23 @@
+# Secrets: never commit (each flow's .gitignore lists its own key files too)
+.env
+*.env
+!*.env.example
+*service-account*.json
+*api-token*
+*api-key*
+*-api-key.txt
+
+# Dependencies and caches
+node_modules/
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv*/
+.DS_Store
+
+# Working data produced by runs
+jobs/
+runs/
+work/
+var/
+metrics/

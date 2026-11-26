@@ -1,0 +1,22 @@
+{
+  "version": 1,
+  "history_days": 90,
+  "spacy_version": "3.8.7",
+  "models": {
+    "en": "en_core_web_sm",
+    "ru": "ru_core_news_sm"
+  },
+  "model_version": "3.8.0",
+  "protected_names": [
+    "Example Co",
+    "Northwind",
+    "Contoso",
+    "Initech",
+    "Fabrikam",
+    "PEO",
+    "EOR",
+    "IRS",
+    "DOL"
+  ],
+  "limitation": "Morphological sequence matching is not semantic equivalence. POS/lemma predictions may be ambiguous, especially in short queries. No synonyms, reordered words or arbitrary gaps count as morphological matches."
+}

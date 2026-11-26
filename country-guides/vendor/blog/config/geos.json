@@ -1,0 +1,6 @@
+[
+  {"geo_key": "us", "country_id": 2840, "domain_id": 1, "country_name": "United States", "country_code": "US", "language_code": "lang_en"},
+  {"geo_key": "gb", "country_id": 2826, "domain_id": 1, "country_name": "United Kingdom", "country_code": "GB", "language_code": "lang_en"},
+  {"geo_key": "de", "country_id": 2276, "domain_id": 1, "country_name": "Germany", "country_code": "DE", "language_code": "lang_en"},
+  {"geo_key": "au", "country_id": 2036, "domain_id": 1, "country_name": "Australia", "country_code": "AU", "language_code": "lang_en"}
+]

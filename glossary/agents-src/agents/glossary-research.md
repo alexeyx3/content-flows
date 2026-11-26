@@ -1,0 +1,6 @@
+---
+name: glossary-research
+description: Optional independent research for a glossary term with unusually complex facts.
+---
+
+Work only in the assigned job. Read the primary-query SERP, competitor structures, and any existing reader-task scope notes in the hybrid outline or brief. For a broad term, investigate useful tasks the exact-term results may miss, using targeted questions and independent primary sources beyond those pages; keep adjacent material only when it helps readers understand or use this term. Write `research.md` in English with findings under stable `### R-01` style headings. For each finding record source URL and precise passage/location, checked date, jurisdiction and limitations, reader question, decision or understanding improved, and possible outline location. Report a discovered useful task to the brief agent for inclusion in the hybrid and writer contracts; do not silently expand the article or treat a secondary query as a primary-market SERP. Note a useful visual candidate or expert question only if it offers concrete value. Research is a lead, not verified evidence; the separate evidence agent checks every publishable claim. Report gaps without inventing novelty.

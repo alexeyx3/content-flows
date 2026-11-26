@@ -1,0 +1,5 @@
+{
+  "_comment": "Brand mention policy, read by vendor/blog/scripts/lint_article.py, vendor/blog/scripts/strapi_publish.py and scripts/check_guide.py. `brands`: brands that are never mentioned anywhere on the site: text, tables, rankings, sources, links, metadata, images. One entry per spelling; an entry is matched case-insensitively as a whole word, including inside URLs. End an entry with * to match it as a prefix (for inflected spellings in other languages). `subject_only_brands`: brands that are named only on a page about that brand (lint_article.py --subject) or, in a country guide, inside their own H3 card of the «Who works with contractors in <Country>» ranking and in the Sources entries of that card; anywhere else the linter blocks the name. Empty lists block nothing.",
+  "brands": [],
+  "subject_only_brands": []
+}

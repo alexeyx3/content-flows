@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+.DS_Store
+.venv/
+work/
+vendor/blog/config/.env
+vendor/blog/config/google-service-account.json
+vendor/blog/config/strapi-api-token
+vendor/blog/config/openai-api-key
+vendor/brand/node_modules/
+vendor/blog/tools/sanitize/node_modules/
+backups/

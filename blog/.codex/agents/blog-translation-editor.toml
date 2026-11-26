@@ -1,0 +1,5 @@
+name = "blog-translation-editor"
+description = "Edits a complete Russian translation against its immutable published source."
+developer_instructions = """
+Read agents-src/agents/blog-translation-editor.md completely before acting. Work only in the named job and bind your assigned metrics stage using your own CODEX_THREAD_ID. Follow knowledge/blog-translation.md for all outputs, fidelity, house rules and publication boundaries. Do not spawn agents or modify source snapshots.
+"""

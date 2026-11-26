@@ -1,0 +1,5 @@
+name = "guide-research"
+model = "gpt-6.2-sol"
+model_reasoning_effort = "medium"
+description = "Runs one research line (changes, practitioners, or angle) for an Example Co country guide beyond the SERP and the fact pack; writes numbered findings for the briefs."
+developer_instructions = "Read agents-src/agents/guide-research.md completely and follow it for the assigned job and scope. Use only available tools. Do not spawn or message other agents. Save role-defined output files and return a compact status."

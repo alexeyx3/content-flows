@@ -1,0 +1,22 @@
+{
+  "_comment": "Vendor data for the machine checks. `competitor_domains`: hosts that a guide never links to; a Sources entry gives such a page as plain text (host and path, no link). check_guide.py adds the vendor hosts of the job's own evidence.vendors.md to this list. `aliases`: publisher name of a Sources entry (lower case) -> the name the ranking table uses for the same vendor, for vendors whose legal or former name differs from the brand; order_sources.py uses it to find the first use of a plain-text vendor source. The entries are fictional examples.",
+  "competitor_domains": [
+    "northwind.example",
+    "contoso.example",
+    "fabrikam.example",
+    "globex.example",
+    "initech.example",
+    "hooli.example",
+    "umbrella.example",
+    "soylent.example",
+    "vandelay.example",
+    "cyberdyne.example",
+    "tyrell.example",
+    "oscorp.example"
+  ],
+  "aliases": {
+    "globex corporation": "Globex",
+    "initech.example": "Initech",
+    "vandelay": "Vandelay Workforce"
+  }
+}

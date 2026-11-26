@@ -1,0 +1,6 @@
+{
+  "shared_drive_id": "YOUR_SHARED_DRIVE_ID",
+  "review_folder_id": "YOUR_REVIEW_FOLDER_ID",
+  "review_folder_name": "Glossary",
+  "service_account_keyfile": "../blog/config/google-service-account.json"
+}

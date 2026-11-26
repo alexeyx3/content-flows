@@ -1,0 +1,180 @@
+{
+  "generated": "2026-01-12",
+  "count": 29,
+  "urls": [
+    {
+      "url": "https://example.com/",
+      "path": "/",
+      "label": "home",
+      "lang": "en"
+    },
+    {
+      "url": "https://example.com/pricing/",
+      "path": "/pricing/",
+      "label": "pricing",
+      "lang": "en"
+    },
+    {
+      "url": "https://example.com/product/agreements/",
+      "path": "/product/agreements/",
+      "label": "contractor agreements",
+      "lang": "en"
+    },
+    {
+      "url": "https://example.com/product/invoice-approval/",
+      "path": "/product/invoice-approval/",
+      "label": "invoice approval",
+      "lang": "en"
+    },
+    {
+      "url": "https://example.com/product/document-trail/",
+      "path": "/product/document-trail/",
+      "label": "document trail",
+      "lang": "en"
+    },
+    {
+      "url": "https://example.com/integrations/",
+      "path": "/integrations/",
+      "label": "integrations",
+      "lang": "en"
+    },
+    {
+      "url": "https://example.com/countries/",
+      "path": "/countries/",
+      "label": "countries",
+      "lang": "en"
+    },
+    {
+      "url": "https://example.com/company/",
+      "path": "/company/",
+      "label": "company",
+      "lang": "en"
+    },
+    {
+      "url": "https://example.com/authors/",
+      "path": "/authors/",
+      "label": "authors",
+      "lang": "en"
+    },
+    {
+      "url": "https://example.com/authors/john-roe/",
+      "path": "/authors/john-roe/",
+      "label": "john roe",
+      "lang": "en"
+    },
+    {
+      "url": "https://example.com/authors/jane-doe/",
+      "path": "/authors/jane-doe/",
+      "label": "jane doe",
+      "lang": "en"
+    },
+    {
+      "url": "https://example.com/blog/",
+      "path": "/blog/",
+      "label": "blog",
+      "lang": "en"
+    },
+    {
+      "url": "https://example.com/blog/contractor-agreement-checklist/",
+      "path": "/blog/contractor-agreement-checklist/",
+      "label": "contractor agreement checklist",
+      "lang": "en"
+    },
+    {
+      "url": "https://example.com/blog/how-to-approve-contractor-invoices/",
+      "path": "/blog/how-to-approve-contractor-invoices/",
+      "label": "how to approve contractor invoices",
+      "lang": "en"
+    },
+    {
+      "url": "https://example.com/blog/contractor-vs-employee/",
+      "path": "/blog/contractor-vs-employee/",
+      "label": "contractor vs employee",
+      "lang": "en"
+    },
+    {
+      "url": "https://example.com/blog/northwind-vs-contoso/",
+      "path": "/blog/northwind-vs-contoso/",
+      "label": "northwind vs contoso",
+      "lang": "en"
+    },
+    {
+      "url": "https://example.com/blog/best-contractor-management-software/",
+      "path": "/blog/best-contractor-management-software/",
+      "label": "best contractor management software",
+      "lang": "en"
+    },
+    {
+      "url": "https://example.com/glossary/",
+      "path": "/glossary/",
+      "label": "glossary",
+      "lang": "en"
+    },
+    {
+      "url": "https://example.com/glossary/statement-of-work/",
+      "path": "/glossary/statement-of-work/",
+      "label": "statement of work",
+      "lang": "en"
+    },
+    {
+      "url": "https://example.com/glossary/purchase-order/",
+      "path": "/glossary/purchase-order/",
+      "label": "purchase order",
+      "lang": "en"
+    },
+    {
+      "url": "https://example.com/glossary/net-30/",
+      "path": "/glossary/net-30/",
+      "label": "net 30",
+      "lang": "en"
+    },
+    {
+      "url": "https://example.com/glossary/retainer-agreement/",
+      "path": "/glossary/retainer-agreement/",
+      "label": "retainer agreement",
+      "lang": "en"
+    },
+    {
+      "url": "https://example.com/guides/",
+      "path": "/guides/",
+      "label": "guides",
+      "lang": "en"
+    },
+    {
+      "url": "https://example.com/guides/germany/",
+      "path": "/guides/germany/",
+      "label": "germany",
+      "lang": "en"
+    },
+    {
+      "url": "https://example.com/guides/germany/employer-of-record/",
+      "path": "/guides/germany/employer-of-record/",
+      "label": "germany employer of record",
+      "lang": "en"
+    },
+    {
+      "url": "https://example.com/guides/germany/independent-contractors/",
+      "path": "/guides/germany/independent-contractors/",
+      "label": "germany independent contractors",
+      "lang": "en"
+    },
+    {
+      "url": "https://example.com/tools/",
+      "path": "/tools/",
+      "label": "tools",
+      "lang": "en"
+    },
+    {
+      "url": "https://example.com/tools/contractor-cost-calculator/",
+      "path": "/tools/contractor-cost-calculator/",
+      "label": "contractor cost calculator",
+      "lang": "en"
+    },
+    {
+      "url": "https://example.com/ru/blog/dogovor-s-podryadchikom/",
+      "path": "/ru/blog/dogovor-s-podryadchikom/",
+      "label": "договор с подрядчиком",
+      "lang": "ru"
+    }
+  ]
+}

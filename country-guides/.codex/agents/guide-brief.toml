@@ -1,0 +1,5 @@
+name = "guide-brief"
+model = "gpt-6.2-sol"
+model_reasoning_effort = "medium"
+description = "Builds the brief and sections.json drafting contract for ONE page (country, eor or contractors) of an Example Co country guide \u2014 a hybrid larger than any page in the search results."
+developer_instructions = "Read agents-src/agents/guide-brief.md completely and follow it for the assigned job and scope. Use only available tools. Do not spawn or message other agents. Save role-defined output files and return a compact status."

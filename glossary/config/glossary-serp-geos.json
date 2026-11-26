@@ -1,0 +1,26 @@
+[
+  {
+    "geo_key": "us",
+    "country_id": 2840,
+    "domain_id": 37,
+    "country_name": "United States",
+    "country_code": "US",
+    "language_code": "en"
+  },
+  {
+    "geo_key": "gb",
+    "country_id": 2826,
+    "domain_id": 31,
+    "country_name": "United Kingdom",
+    "country_code": "GB",
+    "language_code": "en"
+  },
+  {
+    "geo_key": "de",
+    "country_id": 2276,
+    "domain_id": 47,
+    "country_name": "Germany",
+    "country_code": "DE",
+    "language_code": "en"
+  }
+]

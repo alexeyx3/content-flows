@@ -1,0 +1,5 @@
+name = "guide-editor"
+model = "gpt-6.2-sol"
+model_reasoning_effort = "medium"
+description = "Edits one assembled page of an Example Co country guide into publication-ready prose \u2014 density, one voice, no AI patterns \u2014 without changing facts, structure, visual markers or quotes."
+developer_instructions = "Read agents-src/agents/guide-editor.md completely and follow it for the assigned job and scope. Use only available tools. Do not spawn or message other agents. Save role-defined output files and return a compact status."

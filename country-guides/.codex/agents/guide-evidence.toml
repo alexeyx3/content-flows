@@ -1,0 +1,5 @@
+name = "guide-evidence"
+model = "gpt-6.2-sol"
+model_reasoning_effort = "medium"
+description = "Verifies every research finding and vendor or quote fact the three country-guide briefs plan to use, and writes them as E- evidence rows. Facts from facts.json are not re-verified."
+developer_instructions = "Read agents-src/agents/guide-evidence.md completely and follow it for the assigned job and scope. Use only available tools. Do not spawn or message other agents. Save role-defined output files and return a compact status."

@@ -1,0 +1,10 @@
+Category,Competitor,Age,Authority score,Org. Traffic Worldwide,US,UK,Org. Keywords Worldwide,Branded,Non-branded,Backlinks,Ref. Domains,Nofollow,Dofollow,Domains per month,Comment
+Larger,https://globex.example/,20,60,400000,150000,30000,120000,30.00%,70.00%,600000,15000,40.00%,60.00%,,
+Larger,https://initech.example/,15,50,250000,100000,20000,100000,40.00%,60.00%,200000,10000,50.00%,50.00%,,
+Larger,https://hooli.example/,10,45,150000,60000,10000,70000,10.00%,90.00%,50000,4000,50.00%,50.00%,,
+Larger,https://soylent.example/,8,40,50000,20000,5000,30000,10.00%,90.00%,20000,3000,40.00%,60.00%,,
+Comparable,https://northwind.example/,6,35,15000,3000,1500,5000,20.00%,80.00%,10000,1500,40.00%,60.00%,,
+Comparable,https://contoso.example/,8,30,10000,2000,2000,3000,50.00%,50.00%,7000,1500,40.00%,60.00%,,
+Comparable,https://fabrikam.example/,5,30,5000,2000,500,3000,10.00%,90.00%,10000,1500,30.00%,70.00%,,
+Emerging,https://umbrella.example/,2,20,1000,500,100,1000,0.00%,100.00%,3000,300,60.00%,40.00%,,
+Emerging,https://vandelay.example/,1,15,500,200,50,500,0.00%,100.00%,1000,100,50.00%,50.00%,,

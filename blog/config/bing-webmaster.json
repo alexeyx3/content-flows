@@ -1,0 +1,5 @@
+{
+  "api_key_file": "config/bing-webmaster-api-key.txt",
+  "key_index": 1,
+  "site_url": "https://example.com/"
+}

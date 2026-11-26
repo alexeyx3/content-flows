@@ -1,0 +1,28 @@
+{
+  "source": "The site's design tokens. Replace with your own palette; the keys are read by the visual renderer and cover generator.",
+  "yellow": {
+    "default": "#F2B544",
+    "light": "#FBE6B8",
+    "dark": "#B98420"
+  },
+  "accent": {
+    "default": "#3F6FD8",
+    "light": "#E4ECFB"
+  },
+  "cream": {
+    "default": "#F5F5F2",
+    "dark": "#D6D6CF",
+    "darken": "#A9A9A2"
+  },
+  "gray": {
+    "default": "#A9A9A2",
+    "dark": "#7C7C76"
+  },
+  "line": {
+    "default": "#D2D2CC",
+    "light": "#ECECE7"
+  },
+  "red": "#D23B3B",
+  "black": "#101216",
+  "white": "#FFFFFF"
+}

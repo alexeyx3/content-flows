@@ -1,0 +1,5 @@
+Cluster ID,Term,Primary query,Search volume,Slug,Language,Action,Status,Start date,Our Title,Our Description,Our H1,Google Doc,Ready date,Publication URL,Publication date
+GL-001,Statement of Work,statement of work,12000,statement-of-work,en,,,,,,,,,,
+GL-002,Retainer Agreement,retainer agreement,5400,retainer-agreement,en,new,in progress,2026-01-12,,,,,,,
+GL-003,Purchase Order,purchase order,33000,purchase-order,en,new,in review,2026-01-12,Purchase Order: Meaning and How It Works,"What a purchase order is, what it contains and how it differs from an invoice.",Purchase Order,https://docs.google.com/document/d/EXAMPLE_DOC_ID/edit,2026-01-14,,
+GL-004,Net 30,net 30,22000,net-30,en,new,published,2026-01-12,Net 30: Payment Terms Explained,"What net 30 means on an invoice, when the clock starts and common variations.",Net 30,https://docs.google.com/document/d/EXAMPLE_DOC_ID/edit,2026-01-14,https://example.com/glossary/net-30/,2026-01-16

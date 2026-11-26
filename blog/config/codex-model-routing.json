@@ -1,0 +1,78 @@
+{
+  "schema_version": 1,
+  "fork_turns": "none",
+  "agents": {
+    "blog-coordinator": {
+      "model": "gpt-5.6-luna",
+      "reasoning_effort": "medium"
+    },
+    "blog-strategy-brief": {
+      "model": "gpt-6-sol",
+      "reasoning_effort": "medium"
+    },
+    "blog-evidence": {
+      "model": "gpt-6-sol",
+      "reasoning_effort": "medium"
+    },
+    "blog-company-cards": {
+      "model": "gpt-6.1-terra",
+      "reasoning_effort": "medium"
+    },
+    "blog-section-writer": {
+      "model": "gpt-6.1-terra",
+      "reasoning_effort": "medium"
+    },
+    "blog-editor": {
+      "model": "gpt-6-sol",
+      "reasoning_effort": "medium"
+    },
+    "blog-qa-factcheck": {
+      "model": "gpt-6-sol",
+      "reasoning_effort": "medium"
+    },
+    "blog-topic-research": {
+      "model": "gpt-6-sol",
+      "reasoning_effort": "medium"
+    },
+    "blog-research-map": {
+      "model": "gpt-6-sol",
+      "reasoning_effort": "medium"
+    },
+    "blog-primary-data-research": {
+      "model": "gpt-6-sol",
+      "reasoning_effort": "medium"
+    },
+    "blog-study-research": {
+      "model": "gpt-6-sol",
+      "reasoning_effort": "medium"
+    },
+    "blog-quote-scout": {
+      "model": "gpt-6-sol",
+      "reasoning_effort": "medium"
+    },
+    "blog-visual-planner": {
+      "model": "gpt-6.1-terra",
+      "reasoning_effort": "medium"
+    },
+    "blog-visual-qa": {
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "medium"
+    },
+    "blog-expert-quotes": {
+      "model": "gpt-6.1-terra",
+      "reasoning_effort": "medium"
+    },
+    "blog-translator": {
+      "model": "gpt-6-luna",
+      "reasoning_effort": "medium"
+    },
+    "blog-translation-editor": {
+      "model": "gpt-6-sol",
+      "reasoning_effort": "medium"
+    },
+    "blog-translation-qa": {
+      "model": "gpt-6-sol",
+      "reasoning_effort": "medium"
+    }
+  }
+}

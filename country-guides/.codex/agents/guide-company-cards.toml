@@ -1,0 +1,5 @@
+name = "guide-company-cards"
+model = "gpt-6.1-terra"
+model_reasoning_effort = "medium"
+description = "Builds the \u00abWho works with contractors in <Country>\u00bb ranking for the contractors page of an Example Co country guide \u2014 Example Co first, broader than any ranking in the SERP, every described aspect filled on equal terms for every vendor."
+developer_instructions = "Read agents-src/agents/guide-company-cards.md completely and follow it for the assigned job and scope. Use only available tools. Do not spawn or message other agents. Save role-defined output files and return a compact status."

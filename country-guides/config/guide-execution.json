@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "default_backend": "openrouter",
+  "writer": {"backend": "openrouter", "model": "gpt-6.1-terra", "reasoning_effort": "medium", "one_section_per_request": true, "state_delta": true},
+  "editor": {"backend": "codex", "model": "gpt-6.2-sol", "reasoning_effort": "medium"},
+  "humanizer": {"backend": "codex", "model": "gpt-6.2-sol", "reasoning_effort": "medium", "separate_pass": true},
+  "final_qa": {"backend": "codex", "role": "guide-qa", "model": "gpt-6.2-sol", "reasoning_effort": "medium", "independent": true},
+  "full_fact_packet": true,
+  "cache_full_packet": true,
+  "cache_ttl": "30m",
+  "max_cost_usd": 15,
+  "max_call_cost_usd": 8,
+  "max_workers": 2,
+  "timeout_seconds": 900,
+  "max_repair_rounds": 3,
+  "automatic_fallback": false
+}

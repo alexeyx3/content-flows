@@ -1,0 +1,5 @@
+name = "guide-facts"
+model = "gpt-6.2-sol"
+model_reasoning_effort = "medium"
+description = "Builds one scope (employment or contractors) of the country fact pack for an Example Co country guide from primary sources, with exact quotes and access dates. First stage of the country-guide flow."
+developer_instructions = "Read agents-src/agents/guide-facts.md completely and follow it for the assigned job and scope. Use only available tools. Do not spawn or message other agents. Save role-defined output files and return a compact status."

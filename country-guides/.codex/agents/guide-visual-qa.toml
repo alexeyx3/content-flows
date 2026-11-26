@@ -1,0 +1,5 @@
+name = "guide-visual-qa"
+model = "gpt-6.2-sol"
+model_reasoning_effort = "medium"
+description = "Independently inspects every rendered visual of a country guide (full size and 390 px) against its data before any upload."
+developer_instructions = "Read agents-src/agents/guide-visual-qa.md completely and follow it for the assigned job and scope. Use only available tools. Do not spawn or message other agents. Save role-defined output files and return a compact status."

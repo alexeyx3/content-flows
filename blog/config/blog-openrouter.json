@@ -1,0 +1,25 @@
+{
+  "backend": "openrouter_hybrid",
+  "writer": {
+    "max_tokens": 16384,
+    "route": {
+      "model": "minimax/minimax-m3.1-flash",
+      "canonical_slug": "minimax/minimax-m3.1-flash-20261019",
+      "provider": "fireworks",
+      "provider_name": "Fireworks",
+      "price_cap": {"prompt": 0.15, "completion": 0.6},
+      "reasoning": {"effort": "low", "exclude": true}
+    }
+  },
+  "critic": {
+    "max_tokens": 16384,
+    "route": {
+      "model": "deepseek/deepseek-v4.1-flash-1017",
+      "canonical_slug": "deepseek/deepseek-v4.1-flash-20261017",
+      "provider": "deepinfra/fp8",
+      "provider_name": "DeepInfra",
+      "price_cap": {"prompt": 0.11, "completion": 0.36},
+      "reasoning": {"enabled": false, "exclude": true}
+    }
+  }
+}

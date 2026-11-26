@@ -1,0 +1,14 @@
+{
+  "name": "brand-covers",
+  "private": true,
+  "type": "module",
+  "description": "Cover font and logo assets for the visual renderer of the guides. Not part of the CMS.",
+  "scripts": {
+    "articles": "node article-covers.mjs",
+    "glossary": "node glossary-covers.mjs"
+  },
+  "dependencies": {
+    "opentype.js": "2.0.0",
+    "sharp": "^0.32.6"
+  }
+}

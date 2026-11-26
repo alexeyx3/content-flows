@@ -1,0 +1,8 @@
+{
+  "name": "strapi-sanitize-check",
+  "private": true,
+  "description": "Reference Strapi sanitizer for checking the converter. The version matches the CMS.",
+  "dependencies": {
+    "sanitize-html": "2.13.1"
+  }
+}

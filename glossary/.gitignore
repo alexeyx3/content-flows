@@ -1,0 +1,8 @@
+__pycache__/
+.pytest_cache/
+.venv/
+tools/sanitize/node_modules/
+tools/covers/node_modules/
+config/.env
+config/*token*
+config/*service-account*.json

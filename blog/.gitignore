@@ -1,0 +1,23 @@
+# Secrets: never commit
+config/.env
+config/openrouter.env
+config/google-service-account.json
+config/strapi-api-token
+config/bing-webmaster-api-key.txt
+
+# Working data
+jobs/*/raw/
+data/
+var/locks/
+var/semantics/
+vendor-pages/
+
+# Dependencies and caches
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv-semantics/
+tools/sanitize/node_modules/
+tools/covers/node_modules/
+.DS_Store
+~$*

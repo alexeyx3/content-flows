@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "fork_turns": "none",
+  "default_writer_backend": "openrouter",
+  "openrouter_writer": {
+    "article_budget_usd": 0.25,
+    "route": {
+      "model": "minimax/minimax-m3.1-flash",
+      "expected_canonical_slug": "minimax/minimax-m3.1-flash-20261019",
+      "provider_only": ["fireworks"],
+      "expected_provider_name": "Fireworks",
+      "reasoning": {"effort": "low", "exclude": true}
+    }
+  },
+  "agents": {
+    "glossary-brief": {"model": "gpt-5.6-terra", "reasoning_effort": "medium"},
+    "glossary-evidence": {"model": "gpt-5.6-sol", "reasoning_effort": "medium"},
+    "glossary-section-writer": {"model": "gpt-5.6-terra", "reasoning_effort": "medium"},
+    "glossary-editor": {"model": "gpt-5.6-sol", "reasoning_effort": "medium"},
+    "glossary-qa": {"model": "gpt-5.6-sol", "reasoning_effort": "medium"}
+  }
+}

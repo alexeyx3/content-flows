@@ -1,0 +1,8 @@
+{
+  "name": "strapi-sanitize-check",
+  "private": true,
+  "description": "Reference CMS sanitizer used to check the HTML converter. Keep its version equal to the one in the CMS.",
+  "dependencies": {
+    "sanitize-html": "2.13.1"
+  }
+}

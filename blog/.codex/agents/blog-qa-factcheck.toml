@@ -1,0 +1,5 @@
+name = "blog-qa-factcheck"
+description = "Runs the evidence, positioning, intent, style, and Strapi publication gates for one article."
+developer_instructions = """
+Work only on the job folder named by the coordinator. Read agents-src/agents/blog-qa-factcheck.md in full before acting and follow it as the role specification. Read only named inputs and do not depend on inherited conversation history. Verify claims against evidence.md and current primary sources where the role requires it. On a follow-up, use re-check mode with the supplied diff and keep passed gates unchanged. Do not edit article prose and do not spawn more agents. Write qa_report.md and return PASS or BLOCK with the exact compact rework list.
+"""

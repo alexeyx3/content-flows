@@ -1,0 +1,43 @@
+[
+  {
+    "cluster_id": "b-0123",
+    "job": "jobs/2026-03-02-contractor-invoice-approval-blog",
+    "heading": "Contractor invoice approval: a month-end process for finance teams",
+    "article_type": "guide",
+    "sections": [
+      {
+        "id": "what-invoice-approval-covers",
+        "title": "What contractor invoice approval covers",
+        "subheadings": [
+          {
+            "level": 3,
+            "title": "Who signs off and when"
+          }
+        ]
+      },
+      {
+        "id": "approval-steps",
+        "title": "Approval steps that hold up at month end",
+        "subheadings": [
+          {
+            "level": 3,
+            "title": "Matching an invoice to the agreement"
+          },
+          {
+            "level": 3,
+            "title": "Recording the sign-off"
+          }
+        ]
+      },
+      {
+        "id": "sources",
+        "title": "Sources"
+      }
+    ],
+    "sha256": {
+      "brief.md": "d9c1fed813c3a956ed49ea30c34e52b142e356fc5ec3d90770f1c7a24fb5d58a",
+      "sections.json": "e7afb40d1086d12ee4e6293392e73d468dc20000faf7d163245ea0f81191071a",
+      "serp.hybrid_outline.md": "bbb3ca81429b3b915080accee046b2d57cfbcb81ce23a57477c27a40f8641f09"
+    }
+  }
+]

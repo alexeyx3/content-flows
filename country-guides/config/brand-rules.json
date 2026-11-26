@@ -1,0 +1,113 @@
+{
+  "_comment": "Company-specific editorial policy for scripts/check_guide.py, scripts/order_sources.py and vendor/blog/scripts/lint_article.py. Example Co is a fictional company: every rule below is invented to show how detailed such rules need to be, and the values match ../blog/config/brand-rules.json so both flows agree. Replace the content of each block with your own product rules (knowledge/product-positioning.md); the scripts keep only the writing-craft rules and the mechanics (sentence splitting, attribution to the brand, negation, table rows, intro zone). Patterns are Python regular expressions, compiled case-insensitively unless a rule says otherwise. `brand` is the public brand name exactly as it is written in prose, `product` is the product name, `site_host` is the bare host of the site (internal links).",
+  "brand": "Example Co",
+  "product": "Example Workspace",
+  "site_host": "example.com",
+  "brand_misspellings": {
+    "_comment": "Spellings of the brand that must not appear in visible text (link targets are not checked, so a slug may carry any form). check_guide.py blocks a page on any match.",
+    "patterns": [
+      "(?<![\\w.-])ExampleCo(?![\\w-])",
+      "(?<![\\w./@-])Example\\.com(?![\\w/])"
+    ],
+    "message": "brand must be written «Example Co»"
+  },
+  "banned_topics": {
+    "_comment": "Topics the guides never cover, in any field and in any form; the rule does not depend on whether the statement is true. Checked by check_guide.py on the whole page and by lint_article.py on every line outside code blocks, including image alt and title text. Empty by default: a country guide legitimately covers visas and work permits, so the topic ban of the blog flow is not copied here. A rule has the form {\"pattern\": \"\\\\bvisa sponsorship\\\\b\", \"message\": \"visa sponsorship is outside the site's scope in any form\"}.",
+    "rules": []
+  },
+  "site_wide_wording": {
+    "_comment": "House wording rules applied to every line outside code blocks, whoever the sentence is about. `case_sensitive: true` compiles the pattern without the ignore-case flag (needed for the abbreviation rule).",
+    "rules": [
+      {
+        "pattern": "\\b(?:only|sole|flagship and only) product\\b|\\bsingle product\\b(?!\\s+(?:may|can|could)\\s+(?:cover|support|serve|handle)\\b)",
+        "message": "“only product” is internal wording and is not written publicly: use the category formula and the product name"
+      },
+      {
+        "pattern": "\\b(?:AoR|EoR)\\b",
+        "case_sensitive": true,
+        "message": "abbreviations are written in upper case: AOR, EOR"
+      }
+    ]
+  },
+  "industry_term_not_a_label": {
+    "_comment": "An industry term that may describe how an arrangement works but is never the company's own label or product name. A scheme word right after the term (“works on an agent of record model”) marks a description of the arrangement and is allowed; the term next to the brand without such a word is a label and is blocked. The window ends at a full stop and at a table-cell border, because neighbouring cells of a comparison row speak about different vendors.",
+    "term": "Agent of Record",
+    "scheme_words": [
+      "model",
+      "arrangement",
+      "structure",
+      "scheme",
+      "setup",
+      "basis"
+    ],
+    "message": "“Agent of Record” is not an Example Co label: describe the company with the category formula from positioning.md, the product is Example Workspace; describing an arrangement is fine (“works on an agent of record model”)"
+  },
+  "self_forbidden": {
+    "_comment": "Claims blocked only next to the brand; about the market and other vendors the same words are ordinary facts. check_guide.py checks every prose sentence that names the brand: table rows are skipped (cells may belong to other vendors and are judged by QA), and a sentence negated before the match («is not a marketplace») is a permitted boundary statement, not a claim. `kind` names the rule group. «Employer of record» is deliberately absent from the labels: «Example Co is not an employer of record» is the one permitted negation, and employer of record as a label for Example Co is checked by QA.",
+    "rules": [
+      {
+        "kind": "speed",
+        "pattern": "\\binstant(?:ly|aneous(?:ly)?)?\\b|\\bsame[- ]day\\b|\\bfast(?:er|est)?\\b(?![- ]growing)|\\bin\\s+(?:(?:just|only|under|a few|a couple of|\\d+)\\s+)*(?:seconds|minutes)\\b|\\bwithin\\s+(?:(?:just|a few|\\d+)\\s+)*(?:seconds|minutes|hours)\\b",
+        "message": "speed claim (at most “in a few steps”)"
+      },
+      {
+        "kind": "label",
+        "pattern": "\\b(?:talent |freelance )?marketplaces?\\b|\\b(?:staffing|recruit(?:ing|ment)) (?:agenc(?:y|ies)|firms?)\\b|\\blaw firms?\\b|\\blegal advis[eo]rs?\\b|\\bpayments? (?:provider|processor)s?\\b",
+        "message": "label of a marketplace, staffing agency, law firm, legal adviser or payment provider"
+      },
+      {
+        "kind": "retired-label",
+        "pattern": "\\b(?:freelancer management (?:system|platform)|contractor compliance (?:platform|suite)|global workforce platform)\\b",
+        "message": "retired category wording; the current formula is in positioning.md"
+      },
+      {
+        "kind": "guarantee",
+        "pattern": "\\baudit[- ]proof\\b|\\bfully compliant\\b|\\brisk-free\\b|\\bguarantee[sd]?\\b",
+        "message": "guarantee (write “helps keep contractor documents in order”)"
+      },
+      {
+        "kind": "superlative",
+        "pattern": "\\bbest\\b(?![- ](?:for|fit|suited|practices?)\\b)|\\bleading\\b(?!\\s+to\\b)|\\bnumber[- ]one\\b|(?:\\bno\\.\\s?|#)1\\b",
+        "message": "superlative without a public source (best, leading, number one)"
+      },
+      {
+        "kind": "price",
+        "pattern": "\\bcheap(?:er|est|ly)?\\b|\\blow[- ]cost\\b|\\baffordable\\b|(?<![-\\w])free\\b(?!-)",
+        "message": "price adjective (the price is quoted verbatim from positioning.md)"
+      },
+      {
+        "kind": "customers",
+        "pattern": "\\b(?:\\d[\\d,.]*\\s?(?:k|m|thousand|million)?\\+?|hundreds of|thousands of|dozens of)\\s+(?:[a-z-]+\\s+)?(?:customers|clients)\\b|\\b(?:trusted|used|chosen) by\\s+(?:over\\s+|more than\\s+|nearly\\s+)?\\d|\\b\\d[\\d.,]*\\s?%\\s+(?:growth|year[- ]over[- ]year)\\b",
+        "message": "customer count or growth figure that the site does not publish"
+      }
+    ]
+  },
+  "negation_paraphrases": {
+    "_comment": "The one negation permitted in copy is «not an employer of record». Longer paraphrases of it are not used. The vendored linter is the older copy of the blog linter and applies these patterns to every line outside code blocks.",
+    "patterns": [
+      "(?:does not|doesn['’]t|will not) become (?:the |an? |anyone['’]?s? )?(?:legal |formal )?employer\\b(?! of record)",
+      "(?:does not|doesn['’]t|never) (?:employs?|hires?) (?:anyone|people|contractors|your contractors)\\b",
+      "\\b(?:is never|never becomes|never acts as) (?:the|an?|anyone['’]?s?) (?:legal |formal )?employer\\b(?! of record)"
+    ],
+    "message": "wording withdrawn by the publisher: “not an employer of record” is enough"
+  },
+  "self_negation_intro": {
+    "_comment": "Do not open with what the company is not. In the intro zone (everything before the second H2: the title and the key takeaways) a negation about the brand reads as a defence; in the vendor card and in an honest-limit cell of the summary table it is in its place. `subjects` are the sentence openers that continue a line about the brand.",
+    "subjects": [
+      "It",
+      "We",
+      "The platform"
+    ]
+  },
+  "reference_manner": {
+    "_comment": "Manner of the site's published articles that passed the editor and rank; the linter prints a page's numbers next to these and never blocks on them. Densities are per 1,000 words of prose, never absolute counts. `brand` is the number of brand mentions; `paragraph_words` is the average paragraph length; `contrasts_per_article` is the broad count of «X, not Y / rather than / instead of». Measure all of them on your own published pages. The values below are illustrative round numbers, not a measurement: measure your own published articles and put the averages here.",
+    "words": 8000,
+    "paragraph_words": 35,
+    "per_1000_words": {
+      "bullets": 20,
+      "you / your": 15,
+      "brand": 4
+    },
+    "contrasts_per_article": "15-20"
+  }
+}

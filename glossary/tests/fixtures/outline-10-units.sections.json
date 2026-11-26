@@ -1,0 +1,103 @@
+{
+ "sections": [
+  {
+   "id": "s1",
+   "title": "Question 1 about the sample term",
+   "subheadings": [
+    {
+     "level": 3,
+     "title": "Topic 1.1 of the sample term"
+    },
+    {
+     "level": 4,
+     "title": "Detail 1.1.1 of the sample term"
+    },
+    {
+     "level": 4,
+     "title": "Detail 1.1.2 of the sample term"
+    },
+    {
+     "level": 3,
+     "title": "Topic 1.2 of the sample term"
+    },
+    {
+     "level": 4,
+     "title": "Detail 1.2.1 of the sample term"
+    },
+    {
+     "level": 4,
+     "title": "Detail 1.2.2 of the sample term"
+    },
+    {
+     "level": 3,
+     "title": "Topic 1.3 of the sample term"
+    },
+    {
+     "level": 4,
+     "title": "Detail 1.3.1 of the sample term"
+    }
+   ]
+  },
+  {
+   "id": "s2",
+   "title": "Question 2 about the sample term",
+   "subheadings": [
+    {
+     "level": 3,
+     "title": "Topic 2.1 of the sample term"
+    },
+    {
+     "level": 4,
+     "title": "Detail 2.1.1 of the sample term"
+    },
+    {
+     "level": 3,
+     "title": "Topic 2.2 of the sample term"
+    },
+    {
+     "level": 4,
+     "title": "Detail 2.2.1 of the sample term"
+    },
+    {
+     "level": 3,
+     "title": "Topic 2.3 of the sample term"
+    },
+    {
+     "level": 4,
+     "title": "Detail 2.3.1 of the sample term"
+    }
+   ]
+  },
+  {
+   "id": "s3",
+   "title": "Question 3 about the sample term",
+   "subheadings": [
+    {
+     "level": 3,
+     "title": "Topic 3.1 of the sample term"
+    },
+    {
+     "level": 3,
+     "title": "Topic 3.2 of the sample term"
+    }
+   ]
+  },
+  {
+   "id": "s4",
+   "title": "Question 4 about the sample term",
+   "subheadings": []
+  },
+  {
+   "id": "s5",
+   "title": "Question 5 about the sample term",
+   "subheadings": []
+  }
+ ],
+ "information_gain": [
+  {
+   "section_id": "s1",
+   "research_ref": "R-01",
+   "reader_value": "Shows the reader a decision the top results do not cover."
+  }
+ ]
+}

@@ -1,0 +1,5 @@
+name = "blog-company-cards"
+description = "Builds deep, evidence-backed vendor dossiers whose form follows the approved comparison content."
+developer_instructions = """
+Work only on the job folder named by the coordinator, plus companies/ when verified enrichment is part of the role and the coordinator holds the shared companies lock. Read agents-src/agents/blog-company-cards.md in full before acting and follow it as the role specification. Read only named inputs and do not depend on inherited conversation history. Start only after evidence.md exists. Do not spawn more agents. Write company_cards.md and return a compact status and changed paths without quoting the cards.
+"""

@@ -1,0 +1,7 @@
+{
+  "_note": "CMS user IDs (example values), keyed by username. Take each ID from the admin URL of the user record. null = the person has no CMS user yet. \"defaults\" names the default author and the editor set on every pipeline article.",
+  "defaults": {"author": "john.roe", "editor": "jane.doe"},
+  "jane.doe": 4,
+  "john.roe": 5,
+  "ann.poe": 6
+}

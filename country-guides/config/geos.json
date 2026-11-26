@@ -1,0 +1,554 @@
+[
+  {
+    "geo_key": "us",
+    "country_id": 2840,
+    "domain_id": 1,
+    "country_name": "United States",
+    "country_code": "US",
+    "language_code": "lang_en"
+  },
+  {
+    "geo_key": "gb",
+    "country_id": 2826,
+    "domain_id": 1,
+    "country_name": "United Kingdom",
+    "country_code": "GB",
+    "language_code": "lang_en"
+  },
+  {
+    "geo_key": "au",
+    "country_id": 2036,
+    "domain_id": 1,
+    "country_name": "Australia",
+    "country_code": "AU",
+    "language_code": "lang_en"
+  },
+  {
+    "geo_key": "am",
+    "country_id": 2051,
+    "domain_id": 1,
+    "country_name": "Armenia",
+    "country_code": "AM",
+    "language_code": "lang_en"
+  },
+  {
+    "geo_key": "at",
+    "country_id": 2040,
+    "domain_id": 1,
+    "country_name": "Austria",
+    "country_code": "AT",
+    "language_code": "lang_en"
+  },
+  {
+    "geo_key": "be",
+    "country_id": 2056,
+    "domain_id": 1,
+    "country_name": "Belgium",
+    "country_code": "BE",
+    "language_code": "lang_en"
+  },
+  {
+    "geo_key": "br",
+    "country_id": 2076,
+    "domain_id": 1,
+    "country_name": "Brazil",
+    "country_code": "BR",
+    "language_code": "lang_en"
+  },
+  {
+    "geo_key": "bg",
+    "country_id": 2100,
+    "domain_id": 1,
+    "country_name": "Bulgaria",
+    "country_code": "BG",
+    "language_code": "lang_en"
+  },
+  {
+    "geo_key": "ca",
+    "country_id": 2124,
+    "domain_id": 1,
+    "country_name": "Canada",
+    "country_code": "CA",
+    "language_code": "lang_en"
+  },
+  {
+    "geo_key": "cl",
+    "country_id": 2152,
+    "domain_id": 1,
+    "country_name": "Chile",
+    "country_code": "CL",
+    "language_code": "lang_en"
+  },
+  {
+    "geo_key": "cn",
+    "country_id": 2156,
+    "domain_id": 1,
+    "country_name": "China",
+    "country_code": "CN",
+    "language_code": "lang_en"
+  },
+  {
+    "geo_key": "co",
+    "country_id": 2170,
+    "domain_id": 1,
+    "country_name": "Colombia",
+    "country_code": "CO",
+    "language_code": "lang_en"
+  },
+  {
+    "geo_key": "cr",
+    "country_id": 2188,
+    "domain_id": 1,
+    "country_name": "Costa Rica",
+    "country_code": "CR",
+    "language_code": "lang_en"
+  },
+  {
+    "geo_key": "hr",
+    "country_id": 2191,
+    "domain_id": 1,
+    "country_name": "Croatia",
+    "country_code": "HR",
+    "language_code": "lang_en"
+  },
+  {
+    "geo_key": "cz",
+    "country_id": 2203,
+    "domain_id": 1,
+    "country_name": "Czech Republic",
+    "country_code": "CZ",
+    "language_code": "lang_en"
+  },
+  {
+    "geo_key": "dk",
+    "country_id": 2208,
+    "domain_id": 1,
+    "country_name": "Denmark",
+    "country_code": "DK",
+    "language_code": "lang_en"
+  },
+  {
+    "geo_key": "do",
+    "country_id": 2214,
+    "domain_id": 1,
+    "country_name": "Dominican Republic",
+    "country_code": "DO",
+    "language_code": "lang_en"
+  },
+  {
+    "geo_key": "ee",
+    "country_id": 2233,
+    "domain_id": 1,
+    "country_name": "Estonia",
+    "country_code": "EE",
+    "language_code": "lang_en"
+  },
+  {
+    "geo_key": "fi",
+    "country_id": 2246,
+    "domain_id": 1,
+    "country_name": "Finland",
+    "country_code": "FI",
+    "language_code": "lang_en"
+  },
+  {
+    "geo_key": "fr",
+    "country_id": 2250,
+    "domain_id": 1,
+    "country_name": "France",
+    "country_code": "FR",
+    "language_code": "lang_en"
+  },
+  {
+    "geo_key": "ge",
+    "country_id": 2268,
+    "domain_id": 1,
+    "country_name": "Georgia",
+    "country_code": "GE",
+    "language_code": "lang_en"
+  },
+  {
+    "geo_key": "de",
+    "country_id": 2276,
+    "domain_id": 1,
+    "country_name": "Germany",
+    "country_code": "DE",
+    "language_code": "lang_en"
+  },
+  {
+    "geo_key": "gr",
+    "country_id": 2300,
+    "domain_id": 1,
+    "country_name": "Greece",
+    "country_code": "GR",
+    "language_code": "lang_en"
+  },
+  {
+    "geo_key": "hk",
+    "country_id": 2344,
+    "domain_id": 1,
+    "country_name": "Hong Kong",
+    "country_code": "HK",
+    "language_code": "lang_en"
+  },
+  {
+    "geo_key": "hu",
+    "country_id": 2348,
+    "domain_id": 1,
+    "country_name": "Hungary",
+    "country_code": "HU",
+    "language_code": "lang_en"
+  },
+  {
+    "geo_key": "in",
+    "country_id": 2356,
+    "domain_id": 1,
+    "country_name": "India",
+    "country_code": "IN",
+    "language_code": "lang_en"
+  },
+  {
+    "geo_key": "ie",
+    "country_id": 2372,
+    "domain_id": 1,
+    "country_name": "Ireland",
+    "country_code": "IE",
+    "language_code": "lang_en"
+  },
+  {
+    "geo_key": "il",
+    "country_id": 2376,
+    "domain_id": 1,
+    "country_name": "Israel",
+    "country_code": "IL",
+    "language_code": "lang_en"
+  },
+  {
+    "geo_key": "it",
+    "country_id": 2380,
+    "domain_id": 1,
+    "country_name": "Italy",
+    "country_code": "IT",
+    "language_code": "lang_en"
+  },
+  {
+    "geo_key": "jp",
+    "country_id": 2392,
+    "domain_id": 1,
+    "country_name": "Japan",
+    "country_code": "JP",
+    "language_code": "lang_en"
+  },
+  {
+    "geo_key": "jo",
+    "country_id": 2400,
+    "domain_id": 1,
+    "country_name": "Jordan",
+    "country_code": "JO",
+    "language_code": "lang_en"
+  },
+  {
+    "geo_key": "kz",
+    "country_id": 2398,
+    "domain_id": 1,
+    "country_name": "Kazakhstan",
+    "country_code": "KZ",
+    "language_code": "lang_en"
+  },
+  {
+    "geo_key": "ke",
+    "country_id": 2404,
+    "domain_id": 1,
+    "country_name": "Kenya",
+    "country_code": "KE",
+    "language_code": "lang_en"
+  },
+  {
+    "geo_key": "lv",
+    "country_id": 2428,
+    "domain_id": 1,
+    "country_name": "Latvia",
+    "country_code": "LV",
+    "language_code": "lang_en"
+  },
+  {
+    "geo_key": "lt",
+    "country_id": 2440,
+    "domain_id": 1,
+    "country_name": "Lithuania",
+    "country_code": "LT",
+    "language_code": "lang_en"
+  },
+  {
+    "geo_key": "my",
+    "country_id": 2458,
+    "domain_id": 1,
+    "country_name": "Malaysia",
+    "country_code": "MY",
+    "language_code": "lang_en"
+  },
+  {
+    "geo_key": "mt",
+    "country_id": 2470,
+    "domain_id": 1,
+    "country_name": "Malta",
+    "country_code": "MT",
+    "language_code": "lang_en"
+  },
+  {
+    "geo_key": "mx",
+    "country_id": 2484,
+    "domain_id": 1,
+    "country_name": "Mexico",
+    "country_code": "MX",
+    "language_code": "lang_en"
+  },
+  {
+    "geo_key": "md",
+    "country_id": 2498,
+    "domain_id": 1,
+    "country_name": "Moldova",
+    "country_code": "MD",
+    "language_code": "lang_en"
+  },
+  {
+    "geo_key": "me",
+    "country_id": 2499,
+    "domain_id": 1,
+    "country_name": "Montenegro",
+    "country_code": "ME",
+    "language_code": "lang_en"
+  },
+  {
+    "geo_key": "nl",
+    "country_id": 2528,
+    "domain_id": 1,
+    "country_name": "Netherlands",
+    "country_code": "NL",
+    "language_code": "lang_en"
+  },
+  {
+    "geo_key": "nz",
+    "country_id": 2554,
+    "domain_id": 1,
+    "country_name": "New Zealand",
+    "country_code": "NZ",
+    "language_code": "lang_en"
+  },
+  {
+    "geo_key": "pa",
+    "country_id": 2591,
+    "domain_id": 1,
+    "country_name": "Panama",
+    "country_code": "PA",
+    "language_code": "lang_en"
+  },
+  {
+    "geo_key": "py",
+    "country_id": 2600,
+    "domain_id": 1,
+    "country_name": "Paraguay",
+    "country_code": "PY",
+    "language_code": "lang_en"
+  },
+  {
+    "geo_key": "pe",
+    "country_id": 2604,
+    "domain_id": 1,
+    "country_name": "Peru",
+    "country_code": "PE",
+    "language_code": "lang_en"
+  },
+  {
+    "geo_key": "ph",
+    "country_id": 2608,
+    "domain_id": 1,
+    "country_name": "Philippines",
+    "country_code": "PH",
+    "language_code": "lang_en"
+  },
+  {
+    "geo_key": "pl",
+    "country_id": 2616,
+    "domain_id": 1,
+    "country_name": "Poland",
+    "country_code": "PL",
+    "language_code": "lang_en"
+  },
+  {
+    "geo_key": "pt",
+    "country_id": 2620,
+    "domain_id": 1,
+    "country_name": "Portugal",
+    "country_code": "PT",
+    "language_code": "lang_en"
+  },
+  {
+    "geo_key": "qa",
+    "country_id": 2634,
+    "domain_id": 1,
+    "country_name": "Qatar",
+    "country_code": "QA",
+    "language_code": "lang_en"
+  },
+  {
+    "geo_key": "ro",
+    "country_id": 2642,
+    "domain_id": 1,
+    "country_name": "Romania",
+    "country_code": "RO",
+    "language_code": "lang_en"
+  },
+  {
+    "geo_key": "rw",
+    "country_id": 2646,
+    "domain_id": 1,
+    "country_name": "Rwanda",
+    "country_code": "RW",
+    "language_code": "lang_en"
+  },
+  {
+    "geo_key": "sa",
+    "country_id": 2682,
+    "domain_id": 1,
+    "country_name": "Saudi Arabia",
+    "country_code": "SA",
+    "language_code": "lang_en"
+  },
+  {
+    "geo_key": "rs",
+    "country_id": 2688,
+    "domain_id": 1,
+    "country_name": "Serbia",
+    "country_code": "RS",
+    "language_code": "lang_en"
+  },
+  {
+    "geo_key": "sc",
+    "country_id": 2690,
+    "domain_id": 1,
+    "country_name": "Seychelles",
+    "country_code": "SC",
+    "language_code": "lang_en"
+  },
+  {
+    "geo_key": "sg",
+    "country_id": 2702,
+    "domain_id": 1,
+    "country_name": "Singapore",
+    "country_code": "SG",
+    "language_code": "lang_en"
+  },
+  {
+    "geo_key": "sk",
+    "country_id": 2703,
+    "domain_id": 1,
+    "country_name": "Slovakia",
+    "country_code": "SK",
+    "language_code": "lang_en"
+  },
+  {
+    "geo_key": "za",
+    "country_id": 2710,
+    "domain_id": 1,
+    "country_name": "South Africa",
+    "country_code": "ZA",
+    "language_code": "lang_en"
+  },
+  {
+    "geo_key": "kr",
+    "country_id": 2410,
+    "domain_id": 1,
+    "country_name": "South Korea",
+    "country_code": "KR",
+    "language_code": "lang_en"
+  },
+  {
+    "geo_key": "es",
+    "country_id": 2724,
+    "domain_id": 1,
+    "country_name": "Spain",
+    "country_code": "ES",
+    "language_code": "lang_en"
+  },
+  {
+    "geo_key": "se",
+    "country_id": 2752,
+    "domain_id": 1,
+    "country_name": "Sweden",
+    "country_code": "SE",
+    "language_code": "lang_en"
+  },
+  {
+    "geo_key": "ch",
+    "country_id": 2756,
+    "domain_id": 1,
+    "country_name": "Switzerland",
+    "country_code": "CH",
+    "language_code": "lang_en"
+  },
+  {
+    "geo_key": "tw",
+    "country_id": 2158,
+    "domain_id": 1,
+    "country_name": "Taiwan",
+    "country_code": "TW",
+    "language_code": "lang_en"
+  },
+  {
+    "geo_key": "tz",
+    "country_id": 2834,
+    "domain_id": 1,
+    "country_name": "Tanzania",
+    "country_code": "TZ",
+    "language_code": "lang_en"
+  },
+  {
+    "geo_key": "th",
+    "country_id": 2764,
+    "domain_id": 1,
+    "country_name": "Thailand",
+    "country_code": "TH",
+    "language_code": "lang_en"
+  },
+  {
+    "geo_key": "tn",
+    "country_id": 2788,
+    "domain_id": 1,
+    "country_name": "Tunisia",
+    "country_code": "TN",
+    "language_code": "lang_en"
+  },
+  {
+    "geo_key": "tr",
+    "country_id": 2792,
+    "domain_id": 1,
+    "country_name": "Turkiye",
+    "country_code": "TR",
+    "language_code": "lang_en"
+  },
+  {
+    "geo_key": "ae",
+    "country_id": 2784,
+    "domain_id": 1,
+    "country_name": "United Arab Emirates",
+    "country_code": "AE",
+    "language_code": "lang_en"
+  },
+  {
+    "geo_key": "uz",
+    "country_id": 2860,
+    "domain_id": 1,
+    "country_name": "Uzbekistan",
+    "country_code": "UZ",
+    "language_code": "lang_en"
+  },
+  {
+    "geo_key": "vn",
+    "country_id": 2704,
+    "domain_id": 1,
+    "country_name": "Vietnam",
+    "country_code": "VN",
+    "language_code": "lang_en"
+  }
+]
